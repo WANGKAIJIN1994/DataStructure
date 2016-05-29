@@ -1,4 +1,4 @@
-#include"linkedstack.h"
+#include"SwitchInfixToPostfix.cpp"
 
 int main()
 {
@@ -21,5 +21,13 @@ int main()
     cout << linkstack1.getSize() << x << endl;
     cout << linkstack << "\n" << linkstack1 << "\n";
     linkstack1.makeEmpty();
-    cout << linkstack1.getSize() << linkstack1.pop(x);
+    cout << linkstack1.getSize() << linkstack1.pop(x) << x << "\n";
+
+    char a='1';
+    char b=48;
+    char c =32;
+    cout << a << b << c <<  (a==49) << endl;
+
+    switchInfixToPostfix();
+
 }
