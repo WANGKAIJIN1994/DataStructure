@@ -1,4 +1,5 @@
-#include"SwitchInfixToPostfix.cpp"
+#include"linkedstack.h"
+#include<iostream>
 
 int main()
 {
@@ -25,9 +26,8 @@ int main()
 
     char a='1';
     char b=48;
-    char c =32;
+    char c =35;
     cout << a << b << c <<  (a==49) << endl;
 
-    switchInfixToPostfix();
-
+    return 0;
 }
